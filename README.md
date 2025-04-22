@@ -8,8 +8,8 @@ Testing chip: Winbond 25Q32 (4M)
 
 | Programmer |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking |
 | :---       |       :---              |     :---   |      :---        | :---: | :---: | :---: | :---: |
-| Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS | GUI, Console |  5.5-8.0s  |  Auto when In-Write  |  20.0-23.0s   |   Auto when In-Write/In-Read   |
-| Raccoon    | Raccoon Demo/Free version  | Windows, Linux, Android, TV-OS | GUI, Console |  14.0s  |  Auto when In-Write  |  24.0s   |   14.0s   |
+| Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  5.5-8.0s  |  Auto when In-Write  |  20.0-23.0s   |   Auto when In-Write/In-Read   |
+| Raccoon    | Raccoon Demo/Free version  | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  14.0s  |  Auto when In-Write  |  24.0s   |   14.0s   |
 | CH341A     | IMSProg v1.4.3           | Linux   | GUI      | 33.9s  | 12.7s | 328.5s | 33.9s   |
 | CH341A     | SNANDer v.1.7.8          | Linux   | Console  | 33.0s  | 8.0s  | 327.0s | 33.0s   |
 | CH341A     | flashrom v1.2            | Linux   | Console  | 34.6s  | 83.2s | 132.7s | 34.5s   |
