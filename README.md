@@ -40,7 +40,7 @@ Testing chip: Winbond 25Q32 (4M)
 
 | Programmer | Software                |  Platform  |  User Interface  |  SPI NOR| I2C | MW | Edit SR | SFDP view | Security area view |.bin|.hex|.cap|
 | :---       |       :---              |     :---   |      :---        |:---:|:---:|:---:| :---:  |   :---:   |   :---:   |:---:|:---:|:---:|
-| Raccoon    | [Raccoon Flash Explorer ](https://t.me/racc00n_news)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  -     |     -     |  -  | ✔ | - | - |
+| Raccoon    | [Raccoon Flash Explorer ](https://t.me/racc00n_news)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  ✔     |     -     |  -  | ✔ | - | - |
 | Raccoon    | [Raccoon Demo/Free version](https://github.com/lapot2/Raccoon-Flash-Explorer-Demo)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  -     |     -     |  -  | - | - | - |
 | CH341A     | [IMSProg v1.3.1](https://github.com/bigbigmdm/IMSProg)         | Linux | GUI  | ✔   | ✔   | ✔   |  ✔     |     ✔    |  -  | ✔ | ✔ | ✔ |
 | CH341A     | [SNANDer v.1.7.8](https://github.com/McMCCRU/SNANDer)         | Linux | Console  | ✔   |+/-  |+/-  |  -     |     -     |  -  | ✔ | - | - |
