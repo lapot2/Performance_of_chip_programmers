@@ -36,6 +36,10 @@ Testing chip: Winbond 25Q32 (4M)
 | CH347T	   | СH347 HighSpeed pr.v1.40	  | +/- Need Adapter  | - | - | - | - | - | - |
 | EZP2019+   | EZP2019+ Ver. 2.0          | Need Adapter      | - | - | - | - | - | - |
 
+> "Test Clip Support" means providing a set of measures that improve the operation and provide protection against electrical damage to both the programmer and the device being flashed, and if operation is impossible, display more detailed information about a specific problem with the in-circuit connection.
+
+> In-circuit firmware cannot be guaranteed 100% by any of the existing programmers in the world, even those not included in this table, if the target motherboard being flashed does not officially support in-circuit firmware.
+
 ## Programmmer software features
 
 | Programmer | Software                |  Platform  |  User Inter-face  |  SPI | I2C | MW | Edit SR | Extended Chip Parameters search in SFDP | Security area view | Hot Edit IC in External Software|
