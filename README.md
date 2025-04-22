@@ -38,11 +38,11 @@ Testing chip: Winbond 25Q32 (4M)
 
 ## Programmmer software features
 
-| Programmer | Software                |  Platform  |  User Interface  |  SPI NOR| I2C | MW | Edit SR | SFDP view | Security area view | Hot Edit IC in External Software|
+| Programmer | Software                |  Platform  |  User Interface  |  SPI NOR| I2C | MW | Edit SR | Extended Chip Parameters search in SFDP | Security area view | Hot Edit IC in External Software|
 | :---       |       :---              |     :---   |      :---        |:---:|:---:|:---:| :---:  |   :---:   |   :---:   |:---:|
-| Raccoon    | [Raccoon Flash Explorer ](https://t.me/racc00n_news)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  ✔     |     -     |  -  | ✔ |
-| Raccoon    | [Raccoon Demo/Free version](https://github.com/lapot2/Raccoon-Flash-Explorer-Demo)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  -     |     -     |  -  | ✔ |
-| CH341A     | [IMSProg v1.3.1](https://github.com/bigbigmdm/IMSProg)         | Linux | GUI  | ✔   | ✔   | ✔   |  ✔     |     ✔    |  -  | - |
+| Raccoon    | [Raccoon Flash Explorer ](https://t.me/racc00n_news)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  ✔     |     ✔     |  -  | ✔ |
+| Raccoon    | [Raccoon Demo/Free version](https://github.com/lapot2/Raccoon-Flash-Explorer-Demo)       | Windows, Linux, Android, TV-OS | GUI, Console | ✔   | ✔   | -   |  -     |     ✔     |  -  | ✔ |
+| CH341A     | [IMSProg v1.3.1](https://github.com/bigbigmdm/IMSProg)         | Linux | GUI  | ✔   | ✔   | ✔   |  ✔     |     -    |  -  | - |
 | CH341A     | [SNANDer v.1.7.8](https://github.com/McMCCRU/SNANDer)         | Linux | Console  | ✔   |+/-  |+/-  |  -     |     -     |  -  | - |
 | CH341A     | [flashrom v1.2](https://flashrom.org/)           | Linux | Console  | ✔   | -   | -   |  -     |     -     |  -  | - |
 | CH341A     | [Ch341 Programmer 1.34](https://github.com/YTEC-info/CH341A-Softwares/blob/main/Programas/Windows/CH341Programmer/CH341Programmer%20V1.38/Ch341Programmer.exe?ysclid=ls2wxkusch126636141)   | Windows | GUI| ✔   | ✔   | -   |  -     |     -     |  -  |
