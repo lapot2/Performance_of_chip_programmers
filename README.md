@@ -1,10 +1,6 @@
 # Performance_of_chip_programmers
 
-## SPI operations time:
-
-Tesitng computer: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz 5GB RAM
-
-Testing chip: Winbond 25Q32 (4M)
+## SPI operations time. Testing chip: Winbond 25Q32 (4M)
 
 | Hardware   |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking |
 | :---       |       :---              |     :---   |      :---        | :---: | :---: | :---: | :---: |
@@ -25,16 +21,16 @@ Testing chip: Winbond 25Q32 (4M)
 | Hardware   |       Software             |  1.8V Chip support |  Test Clip Support | Overload Protect | Flipped chip protect |  Pins connect checking |  Logic Levels check |  Bus Error check |
 | :---       |       :---                 |             :---:  |             :---:  |          :---:   |              :---:   |   :---:                |              :---:  |           :---:  |
 | Raccoon    | Raccoon Flash Explorer     | ✔                 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Raccoon    | Raccoon Demo/Free version  | easy to add       | ✔ | - | - | - | - | - |
-| CH341A     | IMSProg v1.4.3             | Need Adapter      | - | - | - | - | - | - |
-| CH341A     | SNANDer v.1.7.8            | Need Adapter      | - | - | - | - | - | - |
-| CH341A     | flashrom v1.2              | Need Adapter      | - | - | - | - | - | - |
-| CH341A     | Ch341 Programmer 1.34      | Need Adapter      | - | - | - | - | - | - |
-| CH341A     | NeoProgrammer 2.2.0.10     | Need Adapter      | - | - | - | - | - | - |
-| CH347T	   | ch347-nor-prog	            | +/- Need Adapter  | - | - | - | - | - | - |
-| CH347T	   | CH347_GUI_SPI_NOR_Flash_	  | +/- Need Adapter  | - | - | - | - | - | - |
-| CH347T	   | СH347 HighSpeed pr.v1.40	  | +/- Need Adapter  | - | - | - | - | - | - |
-| EZP2019+   | EZP2019+ Ver. 2.0          | Need Adapter      | - | - | - | - | - | - |
+| Raccoon    | Raccoon Demo/Free version  | easy to add       | ++/- | - | - | - | - | - |
+| CH341A     | IMSProg v1.4.3             | Need Adapter      | +/-- | - | - | - | - | - |
+| CH341A     | SNANDer v.1.7.8            | Need Adapter      | +/-- | - | - | - | - | - |
+| CH341A     | flashrom v1.2              | Need Adapter      | +/-- | - | - | - | - | - |
+| CH341A     | Ch341 Programmer 1.34      | Need Adapter      | +/-- | - | - | - | - | - |
+| CH341A     | NeoProgrammer 2.2.0.10     | Need Adapter      | +/-- | - | - | - | - | - |
+| CH347T	   | ch347-nor-prog	            | +/- Need Adapter  | +/-- | - | - | - | - | - |
+| CH347T	   | CH347_GUI_SPI_NOR_Flash_	  | +/- Need Adapter  | +/-- | - | - | - | - | - |
+| CH347T	   | СH347 HighSpeed pr.v1.40	  | +/- Need Adapter  | +/-- | - | - | - | - | - |
+| EZP2019+   | EZP2019+ Ver. 2.0          | Need Adapter      | +/-- | - | - | - | - | - |
 
 > "Test Clip Support" means providing a set of measures that improve the operation and provide protection against electrical damage to both the programmer and the device being flashed, and if operation is impossible, display more detailed information about a specific problem with the in-circuit connection.
 
@@ -56,8 +52,13 @@ Testing chip: Winbond 25Q32 (4M)
 | CH347T     | [CH347_GUI_SPI_NOR_Flash_](https://github.com/bigbigmdm/CH347_GUI_SPI_NOR_Flash_programmer)| Linux | GUI | ✔   | -   | -   |  -     |     -     |  -  | - |
 | EZP2019+   | [EZP2019+ Ver. 2.0](https://github.com/acontini/EZP2019)       | Windows | GUI| ✔   | ✔   | ✔   |  -     |     -     |  -  | - |
 
-`✔` - yes.
+> `✔` - yes.
+>
+> `-`  - no.
+>
+> `++/-` - It will most likely work.
+>
+> `+/--` - It's unlikely to work.
+>
+> `+/-` - is working, but errors have been detected.
 
-`-`  - no.
-
-`+/-` - is working, but errors have been detected.
