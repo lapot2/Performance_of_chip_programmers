@@ -61,4 +61,8 @@
 > `+/--` - It's unlikely to work.
 >
 > `+/-` - is working, but errors have been detected.
+>
+> `SFDP` is a special flash memory chip register that stores data about the chip for automatic support of this chip by various devices, including flash memory programmers, without the need to add chip parameters to the database or manually set the parameters.
+>
+> Despite the mandatory presence of this information in the chip since 2011, most memory chip programmers use only databases, or use the information built into the chip very limitedly.
 
