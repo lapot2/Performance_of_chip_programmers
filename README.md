@@ -6,7 +6,7 @@ Tesitng computer: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz 5GB RAM
 
 Testing chip: Winbond 25Q32 (4M)
 
-| Programmer |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking |
+| Hardware   |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking |
 | :---       |       :---              |     :---   |      :---        | :---: | :---: | :---: | :---: |
 | Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  5.5-8.0s  |  Auto when In-Write  |  20.0-23.0s   |   Auto when In-Write/In-Read   |
 | Raccoon    | Raccoon Demo/Free version  | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  14.0s  |  Auto when In-Write  |  24.0s   |   14.0s   |
@@ -22,7 +22,7 @@ Testing chip: Winbond 25Q32 (4M)
 
 ## Programmer Hardware features
 
-| Programmer |       Software             |  1.8V Chip support |  Test Clip Support | Overload Protect | Flipped chip protect |  Pins connect checking |  Logic Levels check |  Bus Error check |
+| Hardware   |       Software             |  1.8V Chip support |  Test Clip Support | Overload Protect | Flipped chip protect |  Pins connect checking |  Logic Levels check |  Bus Error check |
 | :---       |       :---                 |             :---:  |             :---:  |          :---:   |              :---:   |   :---:                |              :---:  |           :---:  |
 | Raccoon    | Raccoon Flash Explorer     | ✔                 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Raccoon    | Raccoon Demo/Free version  | easy to add       | ✔ | - | - | - | - | - |
@@ -42,7 +42,7 @@ Testing chip: Winbond 25Q32 (4M)
 
 ## Programmmer software features
 
-| Programmer | Software                |  Platform  |  User Inter-face  |  SPI | I2C | MW | Edit SR | Extended Chip Parameters search in SFDP | Security area view | Hot Edit IC in External Software|
+| Hardware   | Software                |  Platform  |  User Inter-face  |  SPI | I2C | MW | Edit SR | Extended Chip Parameters search in SFDP | Security area view | Hot Edit IC in External Software|
 | :---       |       :---              |     :---   |      :---        |:---:|:---:|:---:| :---:  |   :---:   |   :---:   |:---:|
 | Raccoon    | [Raccoon Flash Explorer ](https://t.me/racc00n_news)       | Windows, Linux, Android, TV-OS | GUI, CMD | ✔   | ✔   | -   |  ✔     |     ✔     |  -  | ✔ |
 | Raccoon    | [Raccoon Demo/Free version](https://github.com/lapot2/Raccoon-Flash-Explorer-Demo)       | Windows, Linux, Android, TV-OS | GUI, CMD | ✔   | ✔   | -   |  -     |     ✔     |  -  | ✔ |
