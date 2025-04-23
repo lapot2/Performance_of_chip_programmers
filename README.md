@@ -21,6 +21,8 @@
 | T76        | Xgpro 12.89              | Windows | GUI      | 0.5s   | 11.3s | 16.2s  | 0.5s    |
 | RT809H     | 20241125                 | Windows | GUI      | 2.5s   | 10.7s | 19.6s  | 2.5s    |
 
+> At the end of this table, for clarity, the speed of some high-end programmers is also given. But those devices provide completely different capabilities and for a different price tag. Therefore, comparing other parameters is incorrect, and they are not included in other tables.
+
 ## Programmer Hardware features
 
 | Hardware   |       Software             |  1.8V Chip support |  Test Clip Support | Overload Protect | Flipped chip protect |  Pins connect checking |  Logic Levels check |  Bus Error check |
