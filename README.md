@@ -17,6 +17,7 @@
 | EZP2019+   | EZP2019+ Ver. 2.0        | Windows | GUI      | 33.0s  | 10.4s | 38.7s  | 33.0s   |
 | --------   | Otneh Hi-End Programmers | ------- | ---      | -----  | ----- | -----  | -----   |
 | Successor  | 16.3.9163.5055           | Windows | GUI      | 4.8s   | 14.2s | 12.9s  | 4.8s    |
+| T48        | Xgpro 12.67              | Windows | GUI      | 1.4s   | 5.1s  | 13.4s  | 1.5s    |
 | T56        | Xgpro 12.88              | Windows | GUI      | 0.9s   | 10.9s | 9.1s   | 0.9s    |
 | T76        | Xgpro 12.89              | Windows | GUI      | 0.5s   | 11.3s | 16.2s  | 0.5s    |
 | RT809H     | 20241125                 | Windows | GUI      | 2.5s   | 10.7s | 19.6s  | 2.5s    |
