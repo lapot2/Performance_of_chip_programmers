@@ -4,7 +4,7 @@
 
 | Hardware   |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking | Full Cycle Time |
 | :---       |       :---              |     :---   |      :---        | :---: | :---: | :---: | :---: | :---: |
-| Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  5.5-8.0s  |  Auto when In-Write, 0.0s  |  20.0-23.0s   |   Auto when In-Write/In-Read, 0.0s   | 25.5s |
+| Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  5.5s  |  Auto when In-Write, 0.0s  |  20.0s   |   Auto when In-Write/In-Read, 0.0s   | 25.5s |
 | Raccoon    | Raccoon Demo/Free version  | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  14.0s  |  Auto when In-Write, 0.0s  |  24.0s   |   14.0s   | 52.0s |
 | CH341A     | IMSProg v1.4.3           | Linux   | GUI      | 33.9s  | 12.7s | 328.5s | 33.9s   | 409s |
 | CH341A     | SNANDer v.1.7.8          | Linux   | Console  | 33.0s  | 8.0s  | 327.0s | 33.0s   | 401s |
