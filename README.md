@@ -2,25 +2,25 @@
 
 ## SPI operations time. Testing chip: Winbond 25Q32 (4M)
 
-| Hardware   |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking |
-| :---       |       :---              |     :---   |      :---        | :---: | :---: | :---: | :---: |
-| Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  5.5-8.0s  |  Auto when In-Write, 0.0s  |  20.0-23.0s   |   Auto when In-Write/In-Read, 0.0s   |
-| Raccoon    | Raccoon Demo/Free version  | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  14.0s  |  Auto when In-Write, 0.0s  |  24.0s   |   14.0s   |
-| CH341A     | IMSProg v1.4.3           | Linux   | GUI      | 33.9s  | 12.7s | 328.5s | 33.9s   |
-| CH341A     | SNANDer v.1.7.8          | Linux   | Console  | 33.0s  | 8.0s  | 327.0s | 33.0s   |
-| CH341A     | flashrom v1.2            | Linux   | Console  | 34.6s  | 83.2s | 132.7s | 34.5s   |
-| CH341A     | Ch341 Programmer 1.34    | Windows | GUI      | 36.4s  | 9.0s  | 231.4s | 36.4s   |
-| CH341A     | NeoProgrammer 2.2.0.10   | Windows | GUI      | 36.7s  | 9.1s  | 220.8s | 36.7s   |
-| CH347T	   | ch347-nor-prog	          | Linux   | Console  | 1.1s	  | 0.1s	| 28.9s	 | 1.1s    |
-| CH347T	   | CH347_GUI_SPI_NOR_Flash_	| Linux   | GUI	     | 1.6s	  | 9.9s	| 35.0s	 | 13.1s   |
-| CH347T	   | СH347 HighSpeed pr.v1.40	| Windows | GUI	     | 0.7s	  | 10.0s	| 8.1s	 | 0.7s    |
-| EZP2019+   | EZP2019+ Ver. 2.0        | Windows | GUI      | 33.0s  | 10.4s | 38.7s  | 33.0s   |
-| --------   | Otneh Hi-End Programmers | ------- | ---      | -----  | ----- | -----  | -----   |
-| Successor  | 16.3.9163.5055           | Windows | GUI      | 4.8s   | 14.2s | 12.9s  | 4.8s    |
-| T48        | Xgpro 12.67              | Windows | GUI      | 1.4s   | 5.1s  | 13.4s  | 1.5s    |
-| T56        | Xgpro 12.88              | Windows | GUI      | 0.9s   | 10.9s | 9.1s   | 0.9s    |
-| T76        | Xgpro 12.89              | Windows | GUI      | 0.5s   | 11.3s | 16.2s  | 0.5s    |
-| RT809H     | 20241125                 | Windows | GUI      | 2.5s   | 10.7s | 19.6s  | 2.5s    |
+| Hardware   |       Software          |  Platform  |  User Interface  | Reading | Erasing |  Writing | Data checking | Full Cycle Time |
+| :---       |       :---              |     :---   |      :---        | :---: | :---: | :---: | :---: | :---: |
+| Raccoon    | Raccoon Flash Explorer Full | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  5.5-8.0s  |  Auto when In-Write, 0.0s  |  20.0-23.0s   |   Auto when In-Write/In-Read, 0.0s   | 25.5s |
+| Raccoon    | Raccoon Demo/Free version  | Windows, Linux, Android, TV-OS, EFI-Shell | GUI, Console |  14.0s  |  Auto when In-Write, 0.0s  |  24.0s   |   14.0s   | 52.0s |
+| CH341A     | IMSProg v1.4.3           | Linux   | GUI      | 33.9s  | 12.7s | 328.5s | 33.9s   | 409s |
+| CH341A     | SNANDer v.1.7.8          | Linux   | Console  | 33.0s  | 8.0s  | 327.0s | 33.0s   | 401s |
+| CH341A     | flashrom v1.2            | Linux   | Console  | 34.6s  | 83.2s | 132.7s | 34.5s   | 285s |
+| CH341A     | Ch341 Programmer 1.34    | Windows | GUI      | 36.4s  | 9.0s  | 231.4s | 36.4s   | 313s |
+| CH341A     | NeoProgrammer 2.2.0.10   | Windows | GUI      | 36.7s  | 9.1s  | 220.8s | 36.7s   | 303s |
+| CH347T	   | ch347-nor-prog	          | Linux   | Console  | 1.1s	  | 0.1s	| 28.9s	 | 1.1s    | 31.2s |
+| CH347T	   | CH347_GUI_SPI_NOR_Flash_	| Linux   | GUI	     | 1.6s	  | 9.9s	| 35.0s	 | 13.1s   | 59.6s |
+| CH347T	   | СH347 HighSpeed pr.v1.40	| Windows | GUI	     | 0.7s	  | 10.0s	| 8.1s	 | 0.7s    | 18.8s |
+| EZP2019+   | EZP2019+ Ver. 2.0        | Windows | GUI      | 33.0s  | 10.4s | 38.7s  | 33.0s   | 115s |
+| --------   | Otneh Hi-End Programmers | ------- | ---      | -----  | ----- | -----  | -----   | -----|
+| Successor  | 16.3.9163.5055           | Windows | GUI      | 4.8s   | 14.2s | 12.9s  | 4.8s    | 36.7s |
+| T48        | Xgpro 12.67              | Windows | GUI      | 1.4s   | 5.1s  | 13.4s  | 1.5s    | 21.4s |
+| T56        | Xgpro 12.88              | Windows | GUI      | 0.9s   | 10.9s | 9.1s   | 0.9s    | 21.8s |
+| T76        | Xgpro 12.89              | Windows | GUI      | 0.5s   | 11.3s | 16.2s  | 0.5s    | 28.5s |
+| RT809H     | 20241125                 | Windows | GUI      | 2.5s   | 10.7s | 19.6s  | 2.5s    | 35.3s |
 
 > At the end of this table, for clarity, the speed of some high-end programmers is also given. But those devices provide completely different capabilities and for a different price tag. Therefore, comparing other parameters is incorrect, and they are not included in other tables.
 
